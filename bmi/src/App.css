@@ -1,0 +1,77 @@
+.bmi-app {
+  max-width: 360px;
+  margin: 48px auto;
+  padding: 24px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--bg);
+  text-align: left;
+  font-family: var(--sans);
+}
+
+.bmi-app h1 {
+  font-size: 24px;
+  margin: 0 0 16px;
+  color: var(--text-h);
+}
+
+.bmi-app label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 12px;
+  color: var(--text-h);
+}
+
+.bmi-app input {
+  display: block;
+  width: 100%;
+  margin-top: 4px;
+  padding: 8px 10px;
+  font-size: 16px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--bg);
+  color: var(--text-h);
+  box-sizing: border-box;
+}
+
+.bmi-app input:focus {
+  outline: 2px solid var(--accent);
+  outline-offset: 1px;
+}
+
+.actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.actions button {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid var(--accent-border);
+  background: var(--accent);
+  color: #fff;
+  cursor: pointer;
+}
+
+.actions button[type="button"] {
+  background: transparent;
+  color: var(--text-h);
+}
+
+.result {
+  margin-top: 20px;
+  padding: 12px;
+  border-radius: 6px;
+  background: var(--accent-bg);
+  color: var(--text-h);
+}
+
+.result .value {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
